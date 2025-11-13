@@ -8,11 +8,13 @@ namespace _20251112_Library_System
 {
     internal class Users
     {
-        private static List<string> userList = new List<string>
+        public static List<string> userList = new List<string>
         {
-            "John, 1234",
-            "Alice, 5678",
-            "Bob, 9101"
+            "John,1234",
+            "Alice,5678",
+            "Bob,9101",
+            "Eve,1121",
+            "Charlie,3141"
         };
 
         public static List<string> GetUsers()
@@ -20,10 +22,10 @@ namespace _20251112_Library_System
             return userList;
         }
 
-        public static void AddUser(string name, string pin)
-        {
-            userList.Add($"{name}, {pin}");
-        }
+        //public static void AddUser(string name, string pin)
+        //{
+        //    userList.Add($"{name}, {pin}");
+        //}
 
 
     }

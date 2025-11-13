@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace _20251112_Library_System
 {
-    internal class Admins
+    internal class BorrowedBooks
     {
-        private List<string> _Admins = new List<string>
+        public List<string> borrowedBookList;
+        public BorrowedBooks()
         {
-            "Chris, 2026"
-        };
+            borrowedBookList = new List<string>();
+        }    
+
     }
 }

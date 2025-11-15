@@ -8,6 +8,9 @@ namespace _20251112_Library_System
 {
     internal class Users
     {
+        /// <summary>
+        /// This is a list of users with their corresponding PINs.
+        /// </summary>
         public static List<string> userList = new List<string>
         {
             "John,1234",
@@ -21,10 +24,5 @@ namespace _20251112_Library_System
         {
             return userList;
         }
-
-        //public static void AddUser(string name, string pin)
-        //{
-        //    userList.Add($"{name}, {pin}");
-        //}
     }
 }

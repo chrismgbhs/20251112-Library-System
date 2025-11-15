@@ -12,6 +12,9 @@ namespace _20251112_Library_System
         public string Author;
         public string PublicationYear;
 
+        /// <summary>
+        /// This is the default constructor for the Book class.
+        /// </summary>
         public Book()
         {
             Title = "";
@@ -19,6 +22,12 @@ namespace _20251112_Library_System
             PublicationYear = "";
         }
 
+        /// <summary>
+        /// This is the parameterized constructor for the Book class.
+        /// </summary>
+        /// <param name="title"></param>
+        /// <param name="author"></param>
+        /// <param name="publicationYear"></param>
         public Book(string title, string author, string publicationYear)
         {
             Title = title;
